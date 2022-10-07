@@ -9,54 +9,60 @@
   </head>
   <body>
     <!-- Шапка сайта -->
-    <header>
+    <header class="page-header">
       <!-- Навігація -->
       <nav>
-        <a lang="en" href="./index.html">WebStudio</a>
-        <ul>
+        <a lang="en" href="./index.html" class="logo">WebStudio</a>
+        <ul class="site-nav">
           <li><a href="./index.html">Студія</a></li>
           <li><a href="portfolio.html">Портфоліо</a></li>
           <li><a href="#">Контакти</a></li>
         </ul>
       </nav>
       <!-- Лінки контактів -->
-      <ul>
-        <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+      <ul class="links-contact">
+        <li>
+          <a href="mailto:info@devstudio.com" class="contact"
+            >info@devstudio.com</a
+          >
+        </li>
+        <li>
+          <a href="tel:+380961111111" class="contact">+38 096 111 11 11</a>
+        </li>
       </ul>
     </header>
     <main>
       <!-- Герой -->
-      <section>
-        <h1>Ефективні рішення для вашого бізнесу</h1>
-        <button type="button">Замовити послугу</button>
+      <section class="hero-section">
+        <h1 class="title">Ефективні рішення для вашого бізнесу</h1>
+        <button class="title-button" type="button">Замовити послугу</button>
       </section>
       <section>
-        <h2>Наші особливості</h2>
-        <ul>
-          <li>
-            <h3>УВАГА ДО ДЕТАЛЕЙ</h3>
-            <p>
+        <h2 class="hide">Наші особливості</h2>
+        <ul class="list">
+          <li class="list-item">
+            <h3 class="list-subtitle">УВАГА ДО ДЕТАЛЕЙ</h3>
+            <p class="list-text">
               Ідейні міркування, і навіть початок повсякденної роботи з
               формування позиції.
             </p>
           </li>
-          <li>
-            <h3>ПУНКТУАЛЬНІСТЬ</h3>
-            <p>
+          <li class="list-item">
+            <h3 class="list-subtitle">ПУНКТУАЛЬНІСТЬ</h3>
+            <p class="list-text">
               Завдання організації, особливо рамки і місце навчання кадрів тягне
               у себе.
             </p>
           </li>
-          <li>
-            <h3>ПЛАНУВАННЯ</h3>
-            <p>
+          <li class="list-item">
+            <h3 class="list-subtitle">ПЛАНУВАННЯ</h3>
+            <p class="list-text">
               Так само консультація з широким активом значною мірою зумовлює.
             </p>
           </li>
-          <li>
-            <h3>СУЧАСНІ ТЕХНОЛОГІЇ</h3>
-            <p>
+          <li class="list-item">
+            <h3 class="list-subtitle">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+            <p class="list-text">
               Значимість цих проблем настільки очевидна, що реалізація планових
               завдань.
             </p>
@@ -64,24 +70,27 @@
         </ul>
       </section>
       <section>
-        <h2>Чим ми займаємося</h2>
-        <ul>
-          <li>
+        <h2 class="subtitle">Чим ми займаємося</h2>
+        <ul class="list-images">
+          <li class="item-images">
             <img
+              class="images"
               src="./images/webdev.jpg"
               alt="Веб-розробник пише код"
               width="370"
             />
           </li>
-          <li>
+          <li class="item-images">
             <img
+              class="images"
               src="./images/designer.jpg"
               alt="Дизайнер малює макет"
               width="370"
             />
           </li>
-          <li>
+          <li class="item-images">
             <img
+              class="images"
               src="./images/takingcolor.jpg"
               alt="Людина обирає колір"
               width="370"
@@ -89,54 +98,60 @@
           </li>
         </ul>
       </section>
-      <section>
-        <h2>Наша команда</h2>
-        <ul>
-          <li>
+      <!-- Перелік команди -->
+      <section class="team-section">
+        <h2 class="subtitle">Наша команда</h2>
+        <ul class="worker-list">
+          <li class="worker-item">
             <img
+              class="worker-avatar"
               src="./images/smilingworker.jpg"
               alt="Фото продуктового дизайнера"
               width="270"
             />
-            <h3>Ігор Дем'яненко</h3>
-            <p lang="en">Product Designer</p>
+            <h3 class="worker-name">Ігор Дем'яненко</h3>
+            <p lang="en" class="worker-desc">Product Designer</p>
           </li>
-          <li>
+          <li class="worker-item">
             <img
+              class="worker-avatar"
               src="./images/smiling-frontend-dev.jpg"
               alt="Фото фронтенд-розробниці"
               width="270"
             />
-            <h3>Ольга Рєпіна</h3>
-            <p lang="en">Frontend Developer</p>
+            <h3 class="worker-name">Ольга Рєпіна</h3>
+            <p lang="en" class="worker-desc">Frontend Developer</p>
           </li>
-          <li>
+          <li class="worker-item">
             <img
+              class="worker-avatar"
               src="./images/responsible-of-marketing.jpg"
               alt="Фото відповідального за маркетинг"
               width="270"
             />
-            <h3>Микола Тарасов</h3>
-            <p lang="en">Marketing</p>
+            <h3 class="worker-name">Микола Тарасов</h3>
+            <p lang="en" class="worker-desc">Marketing</p>
           </li>
-          <li>
+          <li class="worker-item">
             <img
+              class="worker-avatar"
               src="./images/photo-of-UI-designer.jpg"
               alt="Фото користувацького дизайнера"
               width="270"
             />
-            <h3>Михайло Єрмаков</h3>
-            <p lang="en">UI Designer</p>
+            <h3 class="worker-name">Михайло Єрмаков</h3>
+            <p lang="en" class="worker-desc">UI Designer</p>
           </li>
         </ul>
       </section>
     </main>
     <footer>
-      <!-- Подвал -->
-      <a lang="en" href="./index.html">WebStudio</a>
-      <address>
-        <ul>
-          <li>
+      <!-- Подвал, лого -->
+      <a lang="en" href="./index.html" class="logo">WebStudio</a>
+      <!-- Адреса -->
+      <address class="address">
+        <ul class="address-links">
+          <li class="address-place">
             <a
               href="https://goo.gl/maps/CPtrU1FHBa2aNyZL9"
               target="_blank"
@@ -146,6 +161,7 @@
           </li>
           <li>
             <a
+              class="contact"
               href="mailto:info@devstudio.com"
               target="_blank"
               rel="noopener noreferrer nofollow"
@@ -154,6 +170,7 @@
           </li>
           <li>
             <a
+              class="contact"
               href="tel:+380961111111"
               target="_blank"
               rel="noopener noreferrer nofollow"
