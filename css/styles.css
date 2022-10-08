@@ -25,6 +25,8 @@ body {
   background-color: var(--primary-bgr-color);
 
   font-family: Roboto, sans-serif;
+  font-size: 16px;
+  letter-spacing: 0.03em;
 }
 
 /* видаляє крапки */
@@ -57,7 +59,6 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
-  letter-spacing: 0.03em;
 }
 
 .logo-header {
@@ -126,6 +127,20 @@ body {
   letter-spacing: 0.06em;
 }
 
+.hero-section {
+  background-color: #2f303a;
+}
+
+/* Team фон сеції/Фон контейнера для членів команди*/
+
+.team {
+  background-color: #f5f4fa;
+}
+
+.worker-list {
+  background-color: var(--primary-bgr-color);
+}
+
 /* Section-заголовки: "Наші особливості, Чим ми займаємось, Наша команда*/
 
 .subtitle {
@@ -133,8 +148,6 @@ body {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
-  text-align: center;
-  letter-spacing: 0.03em;
 }
 
 /* Подзаголовки 2 и 4 секції */
@@ -144,7 +157,7 @@ body {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
-  letter-spacing: 0.03em;
+
   text-transform: uppercase;
 }
 
@@ -152,24 +165,21 @@ body {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
 }
 
 .worker-list .caption {
   color: var(--title-text-color);
   font-weight: 500;
-  font-size: 16px;
+
   line-height: 1.19;
   text-align: center;
-  letter-spacing: 0.03em;
 }
 
 .worker-list .caption-text {
   font-weight: 400;
-  font-size: 16px;
+
   line-height: 1.19;
   text-align: center;
-  letter-spacing: 0.03em;
 }
 
 /* Section продублювати класи заголовків с указанием предка, щоб задавати величину шрифта і тд, як я зробив нижче в футері*/
@@ -178,10 +188,10 @@ body {
 
 .address-links .address-place {
   color: #ffffff;
+  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
 }
 
 .address-place:hover,
@@ -194,12 +204,15 @@ body {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
 }
 
 .contact:hover,
 .contact:focus {
   color: var(--accent-color);
+}
+
+.footer-section {
+  background-color: #2f303a;
 }
 
 /* Button для порфолио, нужно подключить силкі?*/
@@ -212,7 +225,6 @@ body {
   font-size: 16px;
   line-height: 1.62;
   text-align: center;
-  letter-spacing: 0.03em;
 }
 
 .button:hover,
@@ -233,7 +245,6 @@ body {
 .list-text {
   color: var(--primary-text-color);
   font-weight: 400;
-  font-size: 16px;
+
   line-height: 1.88;
-  letter-spacing: 0.03em;
 }
