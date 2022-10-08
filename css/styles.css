@@ -1,21 +1,149 @@
-body {
-  color: #ffffff;
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --primary-bgr-color: #ffffff;
+  --primary-button-bgr-color: #f5f4fa;
 }
 
-/* основний колір тексту #212121 */
+body {
+  color: var(--primary-text-color);
+  background-color: var(--primary-bgr-color);
+}
 
-/* колір другорядного тексту #757575 */
+/* видаляє крапки */
+.list-hidden {
+  list-style: none;
+}
+/* видаляє підкреслення під силками */
+.link-hidden {
+  text-decoration-line: none;
+}
+
+.subject-hidden {
+  /* НЕЗАКІНЧЕНО треба прибрати заголовок */
+}
+
+/* font */
+
+/* основний колір тексту - це не заголовки!!! #757575 */
+
+/* колір другорядного тексту #212121 */
 
 /* акцент колір #2196F3 */
 
-/* кнопка СИНІЙ ГЕРОЙ #2196F3 та кнопка фільтр портфоліо #F5F4FA*/
+/* кнопка СИНІЙ ГЕРОЙ #2196F3 та кнопка фільтр портфоліо(сірий) #F5F4FA*/
 
 /*чорний текст для лого STUDIO в хедері #000000 */
 
 /* білий текст #FFFFFF*/
+
+/* FON */
 
 /* основний колір фону (білий) #ffffff*/
 
 /* другорядний колір фону (СІРИЙ) #F5F4FA*/
 
 /* Герой частина та футер фон (асфальт) #2F303A */
+
+/* LOGO */
+
+.logo {
+  color: var(--accent-color);
+  text-decoration-line: none;
+}
+
+.logo-header {
+  color: #000000;
+}
+
+.logo-footer {
+  color: #ffffff;
+}
+
+/* SITE NAV */
+
+.site-nav .link {
+  color: var(--title-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+
+.contact {
+  color: var(--primary-text-color);
+}
+
+.contact:hover,
+.contact:focus {
+  color: var(--accent-color);
+}
+
+/* Hero */
+
+.title {
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.title-button {
+  color: #ffffff;
+  background-color: var(--accent-color);
+}
+
+/* Section-заголовки: "Наші особливості, Чим ми займаємось, Наша команда*/
+
+.subtitle {
+  color: var(--title-text-color);
+}
+
+/* Подзаголовки 2 и 4 секції */
+
+.list-hidden .caption {
+  color: var(--title-text-color);
+}
+
+.worker-list .caption {
+  color: var(--title-text-color);
+}
+
+/* Section продублювати класи заголовків с указанием предка, щоб задавати величину шрифта і тд, як я зробив нижче в футері*/
+
+/* footer */
+
+.address-links .address-place {
+  color: #ffffff;
+}
+
+.address-place:hover,
+.address-place:focus {
+  color: var(--accent-color);
+}
+
+.address-links .contact {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.contact:hover,
+.contact:focus {
+  color: var(--accent-color);
+}
+
+/* Button для порфолио, нужно подключить силкі?*/
+
+.button {
+  color: var(--title-text-color);
+  background-repeat: var(--primary-button-bgr-color);
+}
+
+.button:hover,
+.button:focus {
+  color: var(--primary-bgr-color);
+  background-color: var(--accent-color);
+}
