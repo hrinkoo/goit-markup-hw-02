@@ -1,17 +1,3 @@
-/* font */
-
-/* основний колір тексту - це не заголовки!!! #757575 */
-
-/* колір другорядного тексту #212121 */
-
-/* акцент колір #2196F3 */
-
-/* кнопка СИНІЙ ГЕРОЙ #2196F3 та кнопка фільтр портфоліо(сірий) #F5F4FA*/
-
-/*чорний текст для лого STUDIO в хедері #000000 */
-
-/* білий текст #FFFFFF*/
-
 :root {
   --primary-text-color: #757575;
   --title-text-color: #212121;
@@ -30,25 +16,20 @@ body {
 }
 
 /* видаляє крапки */
+
 .list-hidden {
   list-style: none;
 }
+
 /* видаляє підкреслення під силками */
+
 .link-hidden {
   text-decoration-line: none;
 }
 
 .subject-hidden {
-  /* НЕЗАКІНЧЕНО треба прибрати заголовок */
+  display: none;
 }
-
-/* FON */
-
-/* основний колір фону (білий) #ffffff*/
-
-/* другорядний колір фону (СІРИЙ) #F5F4FA*/
-
-/* Герой частина та футер фон (асфальт) #2F303A */
 
 /* LOGO */
 
@@ -162,7 +143,6 @@ body {
 }
 
 .list-hidden .caption-text {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
 }
@@ -176,13 +156,9 @@ body {
 }
 
 .worker-list .caption-text {
-  font-weight: 400;
-
   line-height: 1.19;
   text-align: center;
 }
-
-/* Section продублювати класи заголовків с указанием предка, щоб задавати величину шрифта і тд, як я зробив нижче в футері*/
 
 /* footer */
 
@@ -233,8 +209,12 @@ body {
   background-color: var(--accent-color);
 }
 
+.cursor {
+  cursor: pointer;
+}
+
 /* section portfolio */
-/* задати значення ширини висоти залоговку в партофлио */
+
 .filter .caption {
   font-weight: 700;
   font-size: 18px;
@@ -244,7 +224,5 @@ body {
 /* абзац портфоліо */
 .list-text {
   color: var(--primary-text-color);
-  font-weight: 400;
-
   line-height: 1.88;
 }
