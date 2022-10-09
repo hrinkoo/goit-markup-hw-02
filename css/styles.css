@@ -124,9 +124,8 @@ body {
 
 /* Section-заголовки: "Наші особливості, Чим ми займаємось, Наша команда*/
 
-.subtitle {
+.section-title {
   color: var(--title-text-color);
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
 }
@@ -135,7 +134,6 @@ body {
 
 .list-hidden .caption {
   color: var(--title-text-color);
-  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
 
@@ -143,14 +141,13 @@ body {
 }
 
 .list-hidden .caption-text {
-  font-size: 14px;
   line-height: 1.71;
 }
 
 .worker-list .caption {
   color: var(--title-text-color);
   font-weight: 500;
-
+  font-size: 16px;
   line-height: 1.19;
   text-align: center;
   text-transform: capitalize;
@@ -164,22 +161,18 @@ body {
 /* footer */
 
 .address-links .address-place {
-  color: #ffffff;
+  color: var(--primary-bgr-color);
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
 }
 
-.address-place:hover,
-.address-place:focus {
-  color: var(--accent-color);
-}
-
 .address-links .contact {
   color: rgba(255, 255, 255, 0.6);
   font-weight: 400;
   font-size: 14px;
+  font-style: normal;
   line-height: 1.71;
 }
 
@@ -217,7 +210,6 @@ body {
 /* section portfolio */
 
 .filter .caption {
-  font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
